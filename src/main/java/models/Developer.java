@@ -9,15 +9,11 @@ public class Developer {
     private String specialty;
     private int experience;
 
-    /**
-     * Default Constructor
-     */
+
     public Developer() {
     }
 
-    /**
-     * Plain constructor
-     */
+
     public Developer(int id, String firstName, String lastName, String specialty, int experience) {
         this.id = id;
         this.firstName = firstName;
@@ -33,9 +29,7 @@ public class Developer {
         this.experience = experience;
     }
 
-    /**
-     * Getters and Setters
-     */
+
     public int getId() {
         return id;
     }
